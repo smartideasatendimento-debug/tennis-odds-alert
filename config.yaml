@@ -1,0 +1,21 @@
+odds_api:
+  base_url: "https://api.the-odds-api.com/v4"
+  regions: ["eu", "us", "uk"]
+  markets: ["h2h"]
+  sports_keys:
+    - "tennis_atp"
+    - "tennis_wta"
+    - "tennis_atp_challenger"
+    - "tennis_wta_challenger"
+
+books:
+  sharp: ["pinnacle", "betfair_exchange"]
+  targets: ["bet365", "williamhill", "betfair", "unibet", "betway", "bwin", "888sport"]
+
+filters:
+  min_edge_pct: 3.0
+  min_decimal_odds: 1.5
+  max_start_time_hours: 48
+
+alerting:
+  cooldown_minutes: 90
