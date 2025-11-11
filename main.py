@@ -5,7 +5,8 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 
 # -------------------- CONFIG BÁSICA --------------------
 SPORT_KEYS = [
-       "tennis_atp_aus_open_singles",
+    # NOTE: Updated list of tennis tournament keys from The Odds API doc
+   "tennis_atp_aus_open_singles",
     "tennis_atp_canadian_open",
     "tennis_atp_china_open",
     "tennis_atp_cincinnati_open",
